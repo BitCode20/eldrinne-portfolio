@@ -1,0 +1,43 @@
+@media screen and (max-width: 667px){
+    .navTab{
+        position: fixed;
+    }
+    .navTab ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .navTab ul li{
+        font-size: .85rem;
+        padding: 10px;
+    }
+    .navTab ul li a{
+        padding: 0px 0px;
+    }
+    p{
+        position: absolute;
+        font-size: 20px;
+        top: 200px;
+    }
+    form{
+        position: absolute;
+        top: 370px;
+        left: 450px;
+    }
+    form:hover{
+        background-color: green;
+        color: white;
+        transition: 1s ease;
+        border: .1px;
+        border-radius: 5px;
+    }
+    .p{
+        top: 330px;
+    }
+    .form{
+        position: absolute;
+        bottom: 200px;
+        left: 5px;
+        right: 5px;
+    }
+}

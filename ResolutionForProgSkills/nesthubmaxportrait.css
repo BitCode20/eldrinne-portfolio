@@ -1,0 +1,37 @@
+@media screen and (max-width: 800px){
+    .navTab ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .navTab ul li{
+        font-size: 20px;
+    }
+    .headings1{
+        font-size: 3rem;
+        bottom: 400px;
+        right: 10px;
+        left: 10px;
+    }
+    #ProgSkills1{
+        bottom: 620px;
+        left: 190px;
+        right: 190px;
+    }
+    .csharp{
+        font-size: 20px;
+    }
+    #ProgSkills2{
+        top: 660px;
+        right: 190px;
+        left: 190px;
+    }
+    .python{
+        font-size: 20px;
+    }
+    #ProgSkills3{
+        top: 1110px;
+        right: 190px;
+        left: 190px;
+    }
+}

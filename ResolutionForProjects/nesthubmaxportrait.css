@@ -1,0 +1,96 @@
+@media screen and (max-width: 800px){
+    .navTab ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .navTab ul li{
+        font-size: 20px;
+    }
+    .headings1{
+        top: 120px;
+        left: 125px;
+        right: 125px;
+    }
+    .game1{
+        font: 150px;
+        left: 225px;
+        right: 225px;
+    }
+    .game2{
+        top: 980px;
+        font: 150px;
+        left: 225px;
+        right: 225px;
+    }
+    .game3{
+        top: 1550px;
+        font: 150px;
+        left: 225px;
+        right: 225px;
+    }
+    .game4{
+        top: 2050px;
+        font: 150px;
+        left: 225px;
+        right: 225px;
+    }
+    .game5{
+        top: 2980px;
+        font: 150px;
+        left: 225px;
+        right: 225px;
+    }
+    #Project1{
+        left: 150px;
+        right: 150px;
+    }
+    #Project2{
+        top: 1100px;
+        left: 150px;
+        right: 150px;
+    }
+    #Project3{
+        top: 1650px;
+        left: 150px;
+        right: 150px;
+    }
+    #Project4{
+        top: 2150px;
+        left: 150px;
+        right: 150px;
+    }
+    #Project5{
+        top: 3120px;
+        width: 100px;
+        left: 150px;
+        right: 150px;
+    }
+    .para1{
+        left: 90px;
+        right: 90px;
+        width: 300px;
+    }
+    .para2{
+        left: 90px;
+        right: 90px;
+        width: 300px;
+    }
+    .para3{
+        left: 90px;
+        right: 90px;
+        width: 300px;
+    }
+    .para4{
+        top: 2760px;
+        left: 250px;
+        right: 250px;
+        width: 300px;
+    }
+    .para5{
+        top: 3400px;
+        left: 250px;
+        right: 250px;
+        width: 300px;
+    }
+}

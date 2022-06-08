@@ -1,0 +1,205 @@
+/*this is the default screen of my monitor 1366px*768px*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: auto;
+    min-height: auto;
+    background: whitesmoke;
+}
+.navTab{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background:lightgrey;
+}
+.navTab ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navTab ul li{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navTab ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px 35px;
+    transition: all 1s ease;
+}
+.navTab ul li a:hover{
+    color: crimson;
+    box-shadow: none;
+    border-radius: 50px;
+}
+.headings1{
+    display: ruby-base-container;
+    position: absolute;
+    left: 370px;
+    right: 370px;
+    top: 60px;
+    bottom: 60px;
+    font-size: 160px;
+    font-family: impact;
+    font-weight: lighter;
+    text-align: center;
+}
+.game1{
+    position: absolute;
+    top: 350px;
+    left: 370px;
+    right: 370px;
+    font-size: 50px;
+    font-family: impact;
+    font-weight: lighter;
+    text-align: center;
+}
+video{
+    width: 500px;
+    height: auto;
+}
+#Project1{
+    position: absolute;
+    top: 450px;
+    left: 410px;
+    right: 410px;
+}
+.tetris{
+    left: 410px;
+    right: 410px;
+}
+.para1{
+    position: absolute;
+    top: 245px;
+    border: 2px solid black;
+    width: 800px;
+    font-size: 20px;
+    left: -150px;
+    right: -150px;
+}
+.game2{
+    position: absolute;
+    top: 890px;
+    left: 225px;
+    right: 225px;
+    font-size: 50px;
+    font-family: impact;
+    font-weight: lighter;
+    text-align: center;
+}
+#Project2{
+    position: absolute;
+    top: 1000px; 
+    left: 410px;
+    right: 410px;
+}
+.twentyfortyeight{
+    left: 410px;
+    right: 410px;
+
+}
+.para2{
+    position: absolute;
+    top: 255px;
+    border: 2px solid black;
+    font-size: 20px;
+    left: -150px;
+    right: -150px;
+}
+.game3{
+    position: absolute;
+    top: 1410px;
+    left: 370px;
+    right: 370px;
+    font-size: 50px;
+    font-family: impact;
+    font-weight: lighter;
+    text-align: center;
+}
+#Project3{
+    position: absolute;
+    top: 1500px;
+    left: 410px;
+    right: 410px;
+}
+.tictactoe{
+    top: 50px;
+    left: 225px;
+    right: 225px;
+}
+.para3{
+    position: absolute;
+    border: 2px solid black;
+    top: 248.3px;
+    font-size: 20px;
+    left: -150px;
+    right: -150px;
+}
+.game4{
+    position: absolute;
+    top: 1889px;
+    left: 370px;
+    right: 370px;
+    font-size: 50px;
+    font-family: impact;
+    font-weight: lighter;
+    text-align: center;
+}
+#Project4{
+    position: absolute;
+    top: 2020px;
+    left: 410px;
+    right: 410px;
+}
+.snake{
+    left: 225px;
+    right: 225px;
+}
+.para4{
+    position: absolute;
+    border: 2px solid black;
+    top: 2631px;
+    left: 350px;
+    right: 350px;
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+}
+.game5{
+    position: absolute;
+    top: 2810px;
+    left: 370px;
+    right: 370px;
+    font-size: 50px;
+    font-family: impact;
+    font-weight: lighter;
+    text-align: center;
+}
+#Project5{
+    position: absolute;
+    top: 2920px;
+    left: 410px;
+    right: 410px;
+}
+.quiz{
+    justify-content: center;
+}
+.para5{
+    position: absolute;
+    border: 2px solid black;
+    top: 3200px;
+    left: 250px;
+    right: 250px;
+    font-size: 20px;
+    text-align: left;
+}

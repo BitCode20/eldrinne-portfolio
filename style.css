@@ -1,0 +1,105 @@
+/*this is the default screen of my monitor 1366px*768px*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    position: static;
+    background-image: url("icon/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navTab{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background:lightgrey;
+}
+.navTab ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navTab ul li{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navTab ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 35px;
+    transition: all 1s ease;
+}
+.navTab ul li a:hover{
+    color: crimson;
+    box-shadow: none;
+    border-radius: 50px;
+}
+#home{
+    display: flex;
+    height: 950px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.Name{
+    position: absolute;
+    left: -900px;
+    color: white;
+    font-size: 5rem;
+    font-family: georgia;
+    text-align: right;
+    margin: 10px 0px;
+}
+#About{
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#picture{
+    display: flex;
+}
+#picture img{
+    width: 475px;
+    height: 300px;
+}
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.heading{
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: georgia;
+    position: absolute;
+    bottom: -150px;
+    content: none;
+}

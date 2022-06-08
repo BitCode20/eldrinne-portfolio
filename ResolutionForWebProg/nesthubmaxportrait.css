@@ -1,0 +1,33 @@
+@media screen and (max-width:800px){
+    .navTab ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .navTab ul li{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .headings1{
+        top: 170px;
+        left: 60px;
+        right: 60px;
+        font-size: 3rem;
+    }
+    .html1{
+        top: 290px;
+        left: 225px;
+        right: 225px;
+    }
+    .css1{
+        top: 740px;
+        left: 225px;
+        right: 225px;
+    }
+    .Script{
+        top: 1180px;
+        left: 225px;
+        right: 225px;
+    }
+}

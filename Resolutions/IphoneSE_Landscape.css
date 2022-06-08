@@ -1,0 +1,39 @@
+@media screen and (max-width: 667px){
+    .navTab ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .navTab ul li{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .navTab ul li a{
+        padding: 0px 0px;
+    }
+    #picture{
+        align-items: center;
+    }
+    #picture img{
+        width: 375px;
+        height: 200px
+    }
+    .Name{
+        font-size: 2rem;
+        text-align: right;
+        bottom: -50px;
+        right: -60px;
+        left: -480px;
+    }
+    #aboutme{
+        text-align: justify;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .heading{
+        font-size: 2rem;
+        bottom: -540px;
+        left: 5%;
+        font-family: georgia;
+    }
+}

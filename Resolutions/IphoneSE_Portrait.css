@@ -1,0 +1,36 @@
+@media screen and (max-width: 375px){
+    .navTab ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .navTab ul li{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .navTab ul li a{
+        padding: 0px 0px;
+    }
+    #picture{
+        align-items: center;
+    }
+    #picture img{
+        width: 275px;
+        height: 100px;
+    }
+    #aboutme p{
+        font-size: 12px;
+    }
+    .heading{
+        font-size: 20px;
+        top: 900px;
+        right: 20%;
+        font-family: georgia;
+    }
+    .Name{
+        font-size: 1.9rem;
+        bottom: -50px;
+        right: -20px;
+        left: -290px
+    }
+}

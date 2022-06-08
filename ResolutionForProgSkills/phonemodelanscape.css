@@ -1,0 +1,61 @@
+@media screen and (max-width: 667px){
+    .navTab ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .navTab ul li{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .navTab ul li a{
+        padding: 0px 0px;
+    }
+    .headings1{
+        top: 80px;
+        right: 150px;
+        left: 150px;
+    }
+    #ProgSkills1{
+        top: 150px;
+        margin: center;
+        right: 35px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .csharp{
+        width: 250px;
+        height: 300px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #ProgSkills2{
+        top: 490px;
+        margin: center;
+        right: 35px;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    .python{
+        width: 250px;
+        height: 300px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #ProgSkills3{
+        top: 830px;
+        margin: center;
+        right: 35px;
+    }
+    .h3{
+        font-size: 25px;
+    }
+    .java{
+        width: 250px;
+        height: 300px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}

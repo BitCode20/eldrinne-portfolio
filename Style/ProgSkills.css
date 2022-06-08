@@ -1,0 +1,137 @@
+/*this is the default screen of my monitor 1366px*768px*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: auto;
+    min-height: auto;
+    background: whitesmoke;
+}
+.navTab{
+    width:100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    background:lightgrey;
+}
+.navTab ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navTab ul li{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navTab ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px 35px;
+    transition: all 1s ease;
+}
+.navTab ul li a:hover{
+    color: crimson;
+    box-shadow: none;
+    border-radius: 50px;
+}
+.headings1{
+    font-size: 4rem;
+    position: absolute;
+    top: 120px;
+    right: 450px;
+    font-family: impact;
+    font-weight: 60px;
+}
+#ProgSkills1{
+    display: flex;
+    position: absolute;
+    top: 220px;
+}
+h1{
+    font-size: 35px;
+    font-family: impact;
+    font-weight: 60;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.csharp{
+    content: "";
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+    font-family: georgia;
+    border-radius: 20px;
+}
+.csharp:hover{
+    transition: all 1s ease;
+    background-color: lightsalmon;
+}
+#ProgSkills2{
+    display: flex;
+    position: absolute;
+    top: 220px;
+    right: 500px;
+}
+.h2{
+    font-size: 35px;
+    font-family: impact;
+    font-weight: 60;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.python{
+    content: "";
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+    font-family: georgia;
+    border-radius: 20px;
+}
+.python:hover{
+    transition: all 1s ease;
+    background-color: lightsalmon;
+}
+#ProgSkills3{
+    display: flex;
+    position: absolute;
+    top: 220px;
+    right: 0px;
+}
+.h3{
+    font-size: 35px;
+    font-family: impact;
+    font-weight: 60;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.java{
+    content: "";
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+    font-family: georgia;
+    border-radius: 20px;
+}
+.java:hover{
+    transition: all 1s ease;
+    background-color: lightsalmon;
+}

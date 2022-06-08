@@ -1,0 +1,110 @@
+/*this is for iphone xr only both on portrait mode*/
+@media screen and (max-width: 667px){
+    .navTab{
+        position: fixed;
+    }
+    .navTab ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .navTab ul li{
+        font-size: .85rem;
+        padding: 10px;
+    }
+    .navTab ul li a{
+        padding: 0px 0px;
+    }
+    .headings1{
+        top: 50px;
+        font-size: 100px;
+        left: 150px;
+    }
+    .game1{
+        font-size: 40px;
+        top: 200px;
+        left: 130px;
+        right: 130px;
+    }
+    #Project1{
+        top: 270px;
+        left: 100px;
+        right: 100px;
+    }
+    .para1{
+        font-size: 15px;
+        left: 50px;
+        right: 50px;
+        width: 400px;
+    }
+    .game2{
+        top: 680px;
+        font-size: 40px;
+        left: 130px;
+        right: 130px;
+    }
+    #Project2{
+        top: 760px;
+        left: 100px;
+        right: 100px;
+    }
+    .para2{
+        font-size: 15px;
+        left: 50px;
+        right: 50px;
+        width: 400px;
+    }
+    .game3{
+        top: 1150px;
+        font-size: 40px;
+        left: 130px;
+        right: 130px;
+    }
+    #Project3{
+        top: 1250px;
+        left: 100px;
+        right: 100px;
+    }
+    .para3{
+        font-size: 15px;
+        left: 50px;
+        right: 50px;
+        width: 400px;
+    }
+    .game4{
+        top: 1570px;
+        font-size: 40px;
+        left: 130px;
+        right: 130px;
+    }
+    #Project4{
+        top: 1650px;
+        left: 100px;
+        right: 100px;
+    }
+    .para4{
+        font-size: 15px;
+        top: 2264px;
+        left: 150px;
+        right: 150px;
+        width: 400px;
+    }
+    .game5{
+        top: 2380px;
+        font-size: 40px;
+        left: 130px;
+        right: 130px;
+    }
+    #Project5{
+        top: 2480px;
+        left: 100px;
+        right: 100px;
+    }
+    .para5{
+        font-size: 15px;
+        top: 2762px;
+        left: 150px;
+        right: 150px;
+        width: 400px;
+    }
+}

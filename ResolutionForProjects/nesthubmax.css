@@ -1,0 +1,52 @@
+@media screen and (max-width: 1280px){
+    .navTab ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .navTab ul li{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .headings1{
+        left: 330px;
+    }
+    #Project1{
+        left: 380px;
+    }
+    #Project2{
+        left: 380px;
+    }
+    #Project3{
+        left: 380px;
+    }
+    #Project4{
+        left: 380px;
+    }
+    #Project5{
+        top: 2960px;
+        left: 380px;
+    }
+    .para1{
+        left: -150px;
+        right: -150px;
+    }
+    .para2{
+        left: -150px;
+        right: -150px;
+    }
+    .para3{
+        left: -150px;
+        right: -150px;
+    }
+    .para4{
+        top: 2631px;
+        left: 320px;
+        right: 260px;
+        font-size: 20px;
+    }
+    .para5{
+        top: 3240px;
+    }
+}

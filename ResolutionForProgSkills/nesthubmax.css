@@ -1,0 +1,25 @@
+@media screen and (max-width: 1280px){
+    .navTab ul{
+        flex-wrap: wrap;
+    }
+    .navTab ul li{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .headings1{
+        font-size: 4rem;
+        top: 130px;
+        right: 150px;
+        left: 150px;
+    }
+    #ProgSkills1{
+        left: 40px;
+        margin: 0;
+    }
+    #ProgSkills2{
+        right: 440px;
+    }
+    #ProgSkills3{
+        right: 40px;
+    }
+}
